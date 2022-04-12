@@ -11,14 +11,14 @@ body {
   margin: 0;
   height: 100%;
 }
-
+/*
  @font-face{
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/raleway/v26/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCMPrcVIT9d0c-dYA.woff) format('woff');
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
+}*/
 
 h1.textstyle {
 	font-size: 2.5rem;
@@ -39,6 +39,12 @@ h1.textstyle {
   height: 50px;
   padding: 1em;
 }
+
+.menu a {
+	color: white;
+	text-decoration: none;
+}
+
 
 .menu {
   display: flex;
@@ -261,7 +267,6 @@ h1.textstyle {
     position: absolute;
     top: 24px;
     left: 24px;
-
     width: 90px;
     height: 90px;
     border-radius: 50%;
