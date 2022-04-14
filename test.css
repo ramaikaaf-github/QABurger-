@@ -66,14 +66,20 @@
 
 .customize-selectionsp {
 	border:  1px solid lightgray;
+	padding: 10px;
+	float: left;
 }
 
 .customize-selectionv {
 	border:  1px solid lightgray;
+	padding: 10px;
+	float: left;
 }
 
 .customize-selectiond {
 	border:  1px solid lightgray;
+	padding: 10px;
+	float: left;
 }
 
 .product-top-wrapper {
@@ -83,8 +89,44 @@
 	padding: 60px 155px 1px;
 }
 
-@media (min-width: 992px) 
+.ingredient-container{
+	min-width: 325px;
+	display: flex;
+	justify-content: space-between;
+}
 
+.submit-button-container{
+	width: 100%; 
+	display: flex;
+	margin-top: 25px;
+}
+
+.submit-button-container div{
+	width: 50%; 
+	text-align: center;	
+}
+
+.submit-button-container div button{
+	width: 90%; 	
+	border-radius: 10px;
+	border: none;
+	background-color: orange;
+	box-shadow: 5px 10px;
+	color: #ffffff;
+	padding: 10px 0px;
+	margin-right: 20px;
+}
+
+/* .ingredient-label{
+	background-color: #cccccc;
+}
+
+.ingredient-price{
+	background-color: #888888;
+} */
+
+/* @media (min-width: 992px) 
+ */
 
 
 
